@@ -281,7 +281,7 @@ function params=get_params(varargin)
 
             case {'-cover','-cover_xml_file','-junit_xml_file',...
                         '-cover_json_file','-cover_html_dir',...
-                        '-cover_method'}
+                        '-cover_text_output','-cover_method'}
                 params=set_key_value(params,varargin,k);
                 k=k+1;
 
